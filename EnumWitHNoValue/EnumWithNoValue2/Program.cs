@@ -13,7 +13,7 @@ namespace EnumWithNoValue2
             Console.WriteLine(Hede);
             Console.WriteLine(Hede.ToString());
             Console.WriteLine(Hede.GetType());
-            Task.Delay(2000);
+            Console.ReadKey();
         }
     }
 }
